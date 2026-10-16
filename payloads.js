@@ -17,3 +17,7 @@ window.PAYLOAD_TILES = [
     {"title": "ShadowMountPlus", "description": "Fully automated background Auto-Mounter for jailbroken PS5 consoles. Version 1.7beta2", "name": "ShadowMountPlus_1.7beta2.elf", "info": "ShadowMountPlus_1.7beta2.elf - drakmor", "key": "shadowmountplus"}
 ];
 window.PAYLOAD_ART = { dir: "ui/", pfx: "btn-", on: true };
+
+/* SCHIZO AUTO START */
+window.PAYLOAD_TILES = (window.PAYLOAD_TILES || []).concat([{"title": "1360linux", "description": "Custom ELF payload", "name": "1360linux.elf", "info": "1360linux.elf", "key": "custom-1360linux"}, {"title": "elfldr-ps5-1360", "description": "Custom ELF payload", "name": "elfldr-ps5-1360.elf", "info": "elfldr-ps5-1360.elf", "key": "custom-elfldr-ps5-1360"}, {"title": "ftpsrv-ps5", "description": "Custom ELF payload", "name": "ftpsrv-ps5.elf", "info": "ftpsrv-ps5.elf", "key": "custom-ftpsrv-ps5"}, {"title": "klogsrv-ps5", "description": "Custom ELF payload", "name": "klogsrv-ps5.elf", "info": "klogsrv-ps5.elf", "key": "custom-klogsrv-ps5"}]);
+/* SCHIZO AUTO END */
